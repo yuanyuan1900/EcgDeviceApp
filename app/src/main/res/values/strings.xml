@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EcgDeviceApp</string>
+    <string name="tx_welcome">欢迎使用XXXX心电监测仪</string>
+    <string name="tx_scan_device">查找我的设备</string>
+    <string name="tx_select_device">请选择你的设备：</string>
+    <string name="tx_result_image">心电监测图：</string>
+    <string name="tx_report_title">心电监测报告：</string>
+    <string name="tx_statr_record">开始记录</string>
+    <string name="tx_stop_record">停止记录</string>
+    <string name="tx_quit_app">退出应用</string>
+</resources>

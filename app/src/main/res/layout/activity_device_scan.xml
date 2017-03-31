@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_device_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zouyuan.ecgdeviceapp.DeviceScanActivity">
+
+    <TextView
+        android:id="@+id/itv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#4876FF"
+        android:text="@string/tx_welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/ibt_scan_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itv_welcome"
+        android:background="#BCEE68"
+        android:text="@string/tx_scan_device"
+        android:textColor="#000080"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/itv_select_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibt_scan_device"
+        android:background="#FAEBD7"
+        android:text="@string/tx_select_device"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <ListView
+        android:id="@+id/ilv_device_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
