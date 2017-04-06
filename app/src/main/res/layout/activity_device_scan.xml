@@ -31,16 +31,27 @@
 
     <TextView
         android:id="@+id/itv_select_device"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ibt_scan_device"
         android:background="#FAEBD7"
         android:text="@string/tx_select_device"
         android:textColor="#000000"
         android:textSize="15dp" />
+    <TextView
+        android:id="@+id/itv_connect_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/itv_select_device"
+        android:layout_below="@+id/ibt_scan_device"
+        android:background="#FAEBD7"
+        android:text="连接状态"
+        android:textColor="#000000"
+        android:textSize="15dp"/>
 
     <ListView
         android:id="@+id/ilv_device_list"
         android:layout_width="match_parent"
+        android:layout_below="@+id/itv_select_device"
         android:layout_height="wrap_content"/>
 </RelativeLayout>

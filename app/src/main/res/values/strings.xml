@@ -8,4 +8,8 @@
     <string name="tx_statr_record">开始记录</string>
     <string name="tx_stop_record">停止记录</string>
     <string name="tx_quit_app">退出应用</string>
+    <string name="ble_not_supported">BLE not supported</string>
+    <string name="error_bluetooth_not_supported">Error! BLE not supported.</string>
+    <string name="str_NOT_CONNECTED">未连接</string>
+    <string name="str_CONNECTED">已连接</string>
 </resources>
